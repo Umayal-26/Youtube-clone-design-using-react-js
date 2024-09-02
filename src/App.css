@@ -1,0 +1,66 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: white; 
+}
+
+.logo {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 500px; 
+  padding: 0.5rem;
+  border: 3px solid #688fb6;
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+.icon{
+  font-size: 20px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: white;
+  width: 4.5rem;
+  height: 700px; 
+  position: fixed;
+  top: 56px; 
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  color: #fff; 
+}
+.card{
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px;
+}
+.nav-link.active {
+  background-color: #ced4da;
+}
+.homeicon{
+  color: white;
+  font-size: 20px;
+}
+.icon {
+  color: #2a2415; 
+  font-size: 20px;
+}
